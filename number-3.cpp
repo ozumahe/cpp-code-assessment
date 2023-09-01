@@ -16,7 +16,6 @@ int main() {
     // Convert time to hours
     double timeInHours = timeInMinutes / 60.0;
     
-    // Calculate the deceleration rate using the formula: a = (v_f - v_i) / t
     double decelerationRate = (finalSpeed - initialSpeed) / timeInHours;
     
     // Calculate the time it takes to come to rest using the formula: t = (v_f - v_i) / a
